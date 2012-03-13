@@ -4,7 +4,7 @@
   <title><![CDATA[memoz]]></title>
   <link href="http://akautm.github.com/atom.xml" rel="self"/>
   <link href="http://akautm.github.com/"/>
-  <updated>2012-03-14T00:59:00+09:00</updated>
+  <updated>2012-03-14T01:22:45+09:00</updated>
   <id>http://akautm.github.com/</id>
   <author>
     <name><![CDATA[akautm]]></name>
@@ -12,5 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[テストだよ]]></title>
+    <link href="http://akautm.github.com/blog/2012/03/14/new-post/"/>
+    <updated>2012-03-14T01:10:00+09:00</updated>
+    <id>http://akautm.github.com/blog/2012/03/14/new-post</id>
+    <content type="html"><![CDATA[<p>rake new_post[&#8220;hoge&#8221;]
+とかで新しいポストが作れないよー</p>
+
+<p>➜  octopress git:(source) ✗ rake new_post[&#8220;test&#8221;]</p>
+
+<p>zsh: no matches found: new_post[test]</p>
+
+<p>とかでる。。</p>
+]]></content>
+  </entry>
   
 </feed>
